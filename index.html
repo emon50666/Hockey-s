@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey’s</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+  .custom-font{
+    font-family: 'Manrope', sans-serif;
+  }
+</style>
+
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'primary': '#FF4240'
+            ,
+            'blue': '#49D293'
+            ,
+            'golden':'#FFB546',
+            'green':'#4C8DF1'
+          }
+          
+        }
+      }
+    }
+  </script>
+  
+
+
+</head>
+<body class="custom-font">
+
+ <nav class="container mx-auto mb-5">
+  <div class="navbar">
+    <div class="navbar-start">
+      <div class="dropdown">
+        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+        </div>
+        <ul tabindex="0" class=" menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+          <li><a>Home</a></li>
+         <li><a>About</a></li>
+         <li><a>pages</a></li>
+         <li><a>blog</a></li>
+         <li><a>contact</a></li>
+        </ul>
+      </div>
+      <a class="font-semibold  font-base font-black md:text-lg lg:text-4xl ">Hockey’s</a>
+    </div>
+    <div class="navbar-center hidden lg:flex">
+      <ul class="menu menu-horizontal px-1 font-semibold text-base capitalize">
+        <li class="text-primary hover:bg-primary hover:text-white rounded-lg"><a>Home</a></li>
+         <li class="hover:bg-primary hover:text-white rounded-lg"><a>About</a></li>
+         <li class="hover:bg-primary hover:text-white rounded-lg"><a>pages</a></li>
+         <li class="hover:bg-primary hover:text-white rounded-lg"><a>blog</a></li>
+         <li class="hover:bg-primary hover:text-white rounded-lg"><a>contact</a></li>
+      </ul>
+    </div>
+    <div class="navbar-end">
+      <i class="fa fa-search mr-3 text-1xl  md:mr-7 md:text-2xl lg:mr-7 lg:text-2xl"></i>
+      <a class=" p-3 pl-5 font-semibold pr-5 text-white  rounded-lg bg-primary">Get Ticket</a>
+    </div>
+  </div>
+ </nav> 
+
+<header class="container mx-auto">
+  <div class="relative md:w-[45%] md:left-[53%] lg:w-[44%] lg:left-[55%]">
+    <div class="bg-black p-4 absolute col-auto top-[220px] rounded-lg lg:row-auto lg:top-[3%] lg:mt-[80%] ">
+      <h3 class=" text-base lg:text-2xl  mb-2 capitalize text-white font-semibold">Meet all the heroes from the field</h3>
+      <p class="text-sm text-gray-300">Whether you're a player dreaming of scoring that game-winning goal,</p>
+    </div>
+   </div>
+  <div class="carousel w-full">
+   
+    <div id="item1" class="carousel-item w-full">
+      <img src="./img/slide-1.png" class="w-full"/>
+      
+    </div> 
+    <div id="item2" class="carousel-item w-full ">
+      <img src="./img/slide-1.png" class="w-f"  />
+    </div> 
+  </div> 
+  <div class="flex justify-center w-full py-2 gap-2">
+    <a href="#item1" class="btn btn-xs">1</a> 
+    <a href="#item2" class="btn btn-xs">2</a> 
+  </div> 
+</header>
+
+<!-- professional section start -->
+<section class="container mx-auto col-auto mt-40 md:mt-5 lg:mt-10 lg:w-[450px] m-auto ">
+  <div class=" p-4 text-center">
+    <h1 class="text-base mb-4 lg:text-3xl font-semibold">Professional Hockeys Club</h1>
+    <p class="font-base text-black">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+  </div>
+</section>
+
+
+<!-- progress section -->
+<div class="container mx-auto col-span-1 lg:flex px-4 mt-10 gap-x-10 ">
+  <div class="text-center mb-10">
+    <div class="radial-progress text-primary" style="--value:70;" role="progressbar">70%</div>
+    <h4 class="text-2xl font-semibold mt-5 mb-2">Prayer Facility</h4>
+    <p>our mission is to celebrate and elevate the spirit of hockey</p>
+  </div>
+  <div class="text-center mb-10 ">
+    <div class="radial-progress text-blue" style="--value:95;" role="progressbar">95%</div>
+    <h4 class="text-2xl font-semibold mt-5 mb-2">Experienced Coach</h4>
+    <p>Passion, expertise, and a profound understanding of the game</p>
+  </div>
+  <div class="text-center mb-10">
+    <div class="radial-progress text-golden" style="--value:90;" role="progressbar">90%</div>
+    <h4 class="text-2xl font-semibold mt-5 mb-2">Senior Player</h4>
+    <p>With a career that spans 2024 years in the fast-paced world of hockeyp
+  </div>
+  <div class="text-center mb-10">
+    <div class="radial-progress text-green  " style="--value:80;" role="progressbar">80%</div>
+    <h4 class="text-2xl font-semibold mt-5 mb-2">Training Ground</h4>
+    <p>inspiring us to reach new heights and ensuring that the spirit of hockey burns </p>
+  </div>
+</div>
+ 
+<!-- professional section end  -->
+
+<!-- Program Sections start -->
+
+<section class="container mx-auto col-auto mt-16 lg:mt-32 md:mt-5 lg:mt-10 lg:w-[490px] m-auto">
+  <div class=" p-4 text-center">
+    <h1 class="text-base mb-4 lg:text-3xl font-semibold">Program Sections</h1>
+    <p class="font-base text-black">where our comprehensive approach is designed to cater to a diverse range of needs and interests. Our program is structured into distinct sections, each meticulously crafted to ensure a well-rounded experience for participants.
+
+    </p>
+  </div>
+</section>
+
+<!-- img section -->
+<div class="container mx-auto col-span-1 md:col-span-1 lg:flex gap-10 lg:px-24 mt-10  ">
+  <div class="card md:w-[570px] md:m-auto md:mb-5 lg:w-[540px]  image-full mb-3">
+   <img src="./img/2.png" alt="">
+    <div class="card-body top-[-13px]  m-auto h-[189px]">
+      <h2 class="card-title">Junior Program!</h2>
+      <p class="text-sm">where our comprehensive approach is designed to cater to a diverse range of needs and interests.</p>
+      <button class="p-2 pl-5 pr-5 w-40  rounded-lg text-white font-semibold mt-2 bg-primary">Register Now!</button>
+    </div>
+  </div>
+
+  <div class="card md:w-[570px] md:m-auto md:mb-5 lg:w-[540px]  image-full mb-5">
+    <img src="./img/3.png" alt="">
+     <div class="card-body  top-[-13px] m-auto h-[189px]">
+       <h2 class="card-title">Teenager Program!</h2>
+       <p class="text-sm">In this section, teenagers embark on a journey of self-discovery and skill development.</p>
+       <button class="p-2 pl-5 pr-5 w-40  rounded-lg text-white font-semibold mt-2 bg-primary">Register Now!</button>
+     </div>
+   </div>
+  </div>
+
+<div class="container mx-auto">
+  <div class="card  mb-5">
+    <img src="./img/4.png" class=" h-[220px] md:h-[400px] lg:h-[490px]" alt="">
+     <div class="card-body relative p-3 top-[-208px] lg:top-[-208px] lg:left-[-120px] m-auto ">
+       <h2 class="card-title text-white">Junior Program!</h2>
+       <p class="text- sm text-white">where our comprehensive approach is designed to cater to a diverse range of needs and interests.</p>
+       <button class="p-2 pl-5 pr-5 w-40  rounded-lg text-white font-semibold mt-2 bg-primary">Register Now!</button>
+     </d
+    </div>
+  </div>
+</div>
+<!-- Program Sections end -->
+
+
+
+<!-- product section -->
+
+<section class="container mx-auto col-auto  md:mt-5 0 lg:w-[450px] m-auto ">
+  <div class=" p-4 text-center">
+    <h1 class="text-base mb-4 lg:text-3xl font-semibold">Professional Hockeys Club</h1>
+    <p class="font-base text-black">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+  </div>
+</section>
+
+
+<!-- product -->
+<div class="container col-auto mx-auto md:col-auto lg:flex mt-10 mb-10">
+ <div class="flex-1 mb-5 m-auto col-auto justify-center md:flex lg:flex border border-gray-300 lg:mr-10 lg:p-4 rounded-lg ">
+  <div class="  md:flex lg:flex">
+    <div>
+      <img src="./img/5.png" class="pl-5" alt="">
+    </div>
+    <div class="pl-5 mb-5">
+      <div class="">
+        <i class="fa fa-star  text-golden"><span class="ml-2 text-black">5.00</span></i>
+        <i class="fa-solid fa-eye p-5"><span class="m-2">50</span></i>
+        <i class="fa-regular fa-heart"><span class="m-2">200</span></i>
+      </div>
+      <h4 class="text-xl mb-2 font-semibold">World Cup Flags Football</h4>
+      <p class="text-base pr-10 mb-2">During the FIFA World Cup, you'll see a diverse array of flags, </p>
+      <div class="flex ">
+        <h4 class="pr-5 text-base text-primary font-semibold">Price - $22.00</h4>
+        <i class="fa-solid fa-cart-shopping "><span class="m-2 text-sm font-serif items-center text-gray-600">Delivery Fee : Free</span></i>
+      </div>
+    </div>
+  </div>
+ </div>
+  
+ <div class="flex-1 mb-5 m-auto col-auto justify-center md:flex lg:flex border border-gray-300 lg:mr-10 lg:p-4 rounded-lg ">
+  <div class="  md:flex lg:flex">
+    <div>
+      <img src="./img/6.png" class="pl-5" alt="">
+    </div>
+    <div class="pl-5 mb-5">
+      <div class="">
+        <i class="fa fa-star  text-golden"><span class="ml-2 text-black">5.00</span></i>
+        <i class="fa-solid fa-eye p-5"><span class="m-2">50</span></i>
+        <i class="fa-regular fa-heart"><span class="m-2">200</span></i>
+      </div>
+      <h4 class="text-xl mb-2 font-semibold">World Cup Flags Football</h4>
+      <p class="text-base pr-10 mb-2">During the FIFA World Cup, you'll see a diverse array of flags, </p>
+      <div class="flex ">
+        <h4 class="pr-5 text-base text-primary font-semibold">Price - $22.00</h4>
+        <i class="fa-solid fa-cart-shopping "><span class="m-2 text-sm font-serif items-center text-gray-600">Delivery Fee : Free</span></i>
+      </div>
+    </div>
+  </div>
+ </div>
+
+</div>
+
+
+
+<div class="container col-auto mx-auto md:col-auto lg:flex mt-10 mb-10">
+  <div class="flex-1 mb-5 m-auto col-auto justify-center md:flex lg:flex border border-gray-300 lg:mr-10 lg:p-4 rounded-lg ">
+   <div class="  md:flex lg:flex">
+     <div>
+       <img src="./img/7.png" class="pl-5" alt="">
+     </div>
+     <div class="pl-5 mb-5">
+       <div class="">
+         <i class="fa fa-star  text-golden"><span class="ml-2 text-black">5.00</span></i>
+         <i class="fa-solid fa-eye p-5"><span class="m-2">50</span></i>
+         <i class="fa-regular fa-heart"><span class="m-2">200</span></i>
+       </div>
+       <h4 class="text-xl mb-2 font-semibold">Cap For Hockeys</h4>
+       <p class="text-base pr-10 mb-2">During the FIFA World Cup, you'll see a diverse array of flags, </p>
+       <div class="flex ">
+         <h4 class="pr-5 text-base text-primary font-semibold">Price - $22.00</h4>
+         <i class="fa-solid fa-cart-shopping "><span class="m-2 text-sm font-serif items-center text-gray-600">Delivery Fee : Free</span></i>
+       </div>
+     </div>
+   </div>
+  </div>
+   
+  <div class="flex-1 mb-5 m-auto col-auto justify-center md:flex lg:flex border border-gray-300 lg:mr-10 lg:p-4 rounded-lg ">
+   <div class="  md:flex lg:flex">
+     <div>
+       <img src="./img/8.png" class="pl-5" alt="">
+     </div>
+     <div class="pl-5 mb-5">
+       <div class="">
+         <i class="fa fa-star  text-golden"><span class="ml-2 text-black">5.00</span></i>
+         <i class="fa-solid fa-eye p-5"><span class="m-2">50</span></i>
+         <i class="fa-regular fa-heart"><span class="m-2">200</span></i>
+       </div>
+       <h4 class="text-xl mb-2 font-semibold">World Cup Flags Football</h4>
+       <p class="text-base pr-10 mb-2">During the FIFA World Cup, you'll see a diverse array of flags, </p>
+       <div class="flex ">
+         <h4 class="pr-5 text-base text-primary font-semibold">Price - $22.00</h4>
+         <i class="fa-solid fa-cart-shopping "><span class="m-2 text-sm font-serif items-center text-gray-600">Delivery Fee : Free</span></i>
+       </div>
+     </div>
+   </div>
+  </div>
+ 
+ </div>
+
+
+ <div class="container col-auto mx-auto md:col-auto lg:flex mt-10 mb-10">
+  <div class="flex-1 mb-5 m-auto col-auto justify-center md:flex lg:flex border border-gray-300 lg:mr-10 lg:p-4 rounded-lg ">
+   <div class="  md:flex lg:flex">
+     <div>
+       <img src="./img/9.png" class="pl-5" alt="">
+     </div>
+     <div class="pl-5 mb-5">
+       <div class="">
+         <i class="fa fa-star  text-golden"><span class="ml-2 text-black">5.00</span></i>
+         <i class="fa-solid fa-eye p-5"><span class="m-2">50</span></i>
+         <i class="fa-regular fa-heart"><span class="m-2">200</span></i>
+       </div>
+       <h4 class="text-xl mb-2 font-semibold">World Cup criket</h4>
+       <p class="text-base pr-10 mb-2">During the FIFA World Cup, you'll see a diverse array of flags, </p>
+       <div class="flex ">
+         <h4 class="pr-5 text-base text-primary font-semibold">Price - $22.00</h4>
+         <i class="fa-solid fa-cart-shopping "><span class="m-2 text-sm font-serif items-center text-gray-600">Delivery Fee : Free</span></i>
+       </div>
+     </div>
+   </div>
+  </div>
+   
+  <div class="flex-1 mb-5 m-auto col-auto justify-center md:flex lg:flex border border-gray-300 lg:mr-10 lg:p-4 rounded-lg ">
+   <div class="  md:flex lg:flex">
+     <div>
+       <img src="./img/fotbal-10.png" class="pl-5" alt="">
+     </div>
+     <div class="pl-5 mb-5">
+       <div class="">
+         <i class="fa fa-star  text-golden"><span class="ml-2 text-black">5.00</span></i>
+         <i class="fa-solid fa-eye p-5"><span class="m-2">50</span></i>
+         <i class="fa-regular fa-heart"><span class="m-2">200</span></i>
+       </div>
+       <h4 class="text-xl mb-2 font-semibold">World Cup Flags Football</h4>
+       <p class="text-base pr-10 mb-2">During the FIFA World Cup, you'll see a diverse array of flags, </p>
+       <div class="flex ">
+         <h4 class="pr-5 text-base text-primary font-semibold">Price - $22.00</h4>
+         <i class="fa-solid fa-cart-shopping "><span class="m-2 text-sm font-serif items-center text-gray-600">Delivery Fee : Free</span></i>
+       </div>
+     </div>
+   </div>
+  </div>
+ 
+ </div>
+
+
+
+ <!-- client section -->
+
+ <section class="container mx-auto col-auto mt-16 lg:mt-32 md:mt-5 lg:mt-10 lg:w-[490px] m-auto">
+  <div class=" p-4 text-center">
+    <h1 class="text-base mb-4 lg:text-3xl font-semibold">Clients Question</h1>
+    <p class="font-base text-black">It seems like you're asking about a question related to clients in the context of a hockey game. If you could provide more details or clarify your question, I'd be happy to assist you.
+
+    </p>
+  </div>
+</section>
+
+
+<!-- accordion -->
+
+<div class="container  mx-auto   col-auto  lg:flex gap-10 lg:w-[1030px] mt-10 "> 
+
+    <div class="">
+      <img src="./img/11.png" alt="">
+    </div>
+    <div class="items-center ">
+      <div class="collapse collapse-plus ">
+        <input type="radio" name="my-accordion-3" checked="checked" /> 
+        <div class="collapse-title text-xl font-medium">
+          What is the primary objective of our upcoming event?
+        </div>
+        <div class="collapse-content"> 
+          <p>[Accordion Content: Provide details about the event's goals, purpose, and desired outcomes.]</p>
+        </div>
+      </div>
+      <div class="collapse collapse-plus ">
+        <input type="radio" name="my-accordion-3" /> 
+        <div class="collapse-title text-xl font-medium">
+          How can attendees register for the event?
+        </div>
+        <div class="collapse-content"> 
+          <p>[Accordion Content: Share step-by-step instructions for registration, including online platforms or physical locations.]</p>
+        </div>
+      </div>
+      <div class="collapse collapse-plus">
+        <input type="radio" name="my-accordion-3" /> 
+        <div class="collapse-title text-xl font-medium">
+          What safety measures are in place for event attendees?
+        </div>
+        <div class="collapse-content"> 
+          <p>[Accordion Content: Detail the safety protocols, such as health screenings, sanitization practices, and any other measures implemented for attendee well-being.]</p>
+        </div>
+      </div>
+      <div class="collapse collapse-plus ">
+        <input type="radio" name="my-accordion-3" /> 
+        <div class="collapse-title text-xl font-medium">
+          Are there opportunities for sponsorship or partnership?
+        </div>
+        <div class="collapse-content"> 
+          <p>[Accordion Content: Outline the available sponsorship packages, benefits, and contact information for interested parties.]</p>
+        </div>
+      </div>
+      <div class="collapse collapse-plus ">
+        <input type="radio" name="my-accordion-3" /> 
+        <div class="collapse-title text-xl font-medium">
+          What is the schedule or agenda for the event?endees?
+        </div>
+        <div class="collapse-content"> 
+          <p>[Accordion Content: Detail the safety protocols, such as health screenings, sanitization practices, and any other measures implemented for attendee well-being.]</p>
+        </div>
+      </div>
+      <div class="collapse collapse-plus ">
+        <input type="radio" name="my-accordion-3" /> 
+        <div class="collapse-title text-xl font-medium">
+          How can attendees provide feedback or get in touch after the event?
+        </div>
+        <div class="collapse-content"> 
+          <p>[Accordion Content: Detail the safety protocols, such as health screenings, sanitization practices, and any other measures implemented for attendee well-being.]</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- contact section -->
+  <section class="container mx-auto col-auto mt-16 lg:mt-32 md:mt-5 lg:mt-10 lg:w-[490px] m-auto">
+    <div class=" p-4 text-center">
+      <h1 class="text-base mb-4 lg:text-3xl font-semibold">Get In Touch</h1>
+      <p class="font-base text-black">
+        Certainly! If you would like to get in touch, feel free to reach out using the following contact details:
+  
+      </p>
+    </div>
+  </section>
+
+  <!-- form  -->
+
+  <div class="">
+    <div class="lg:flex  relative m-auto justify-center">
+     <div>
+      <div class="lg:pr-32 mb-3 bg-[#BCED6D1A] p-4 rounded-lg mr-4">
+        <img src="./img/Group 1171275317.png" alt="">
+        <h5 class="text-sm mt-2 mb-2">Phone Number : </h5>
+        <p class="font-semibold">(+62) 123-321-543</p>
+      </div>
+      <div class="lg:pr-32 mb-3  bg-yellow-100 p-4 rounded-lg mr-4">
+        <img src="./img/Group 1171275318.png" alt="">
+        <h5 class="text-sm mt-2 mb-2">Email </h5>
+        <p class="font-semibold">demo@gmail.com</p>
+      </div>
+      <div class="lg:pr-32 bg-gray-300 p-4 rounded-lg mr-4">
+        <img src="./img/Group 1171275321.png" alt="">
+        <h5 class="text-sm mt-2 mb-2">Location </h5>
+        <p class="font-semibold">152/1 Mohakhali Wireless Gate</p>
+      </div>
+     </div>
+      <div class="col-auto lg:grid lg:grid-cols-2 gap-5 p-3">
+        <label class="form-control w-full max-w-xs">
+          <div class="label">
+            <span class="label-text text-1xl font-semibold">Your Name</span>
+          </div>
+          <input type="Name" placeholder="Your Name" class="input input-bordered w-full max-w-xs" />
+        </label>
+        <label class="form-control w-full max-w-xs">
+          <div class="label">
+            <span class="label-text text-1xl font-semibold">Your Email
+            </span>
+          </div>
+          <input type="email" placeholder="Your email" class="input input-bordered w-full max-w-xs" />
+        </label>
+        <label class="form-control w-full max-w-xs">
+          <div class="label">
+            <span class="label-text text-1xl font-semibold">subject
+            </span>
+          </div>
+          <input type="text" placeholder="subject" class="input input-bordered w-full max-w-xs" />
+        </label>
+        <label class="form-control w-full max-w-xs">
+          <div class="label">
+            <span class="label-text text-1xl font-semibold">Phone Number
+            </span>
+          </div>
+          <input type="number" placeholder=" Phone Number" class="input input-bordered w-full max-w-xs" />
+        </label>
+        <span class="label-text text-1xl font-semibold">Message
+        </span>
+        <textarea class="textarea textarea-bordered  grid col-span-1 lg:col-span-2" placeholder="Message"></textarea>
+        <button class="p-2 pl-5 pr-5 w-40  rounded-lg text-white font-semibold mt-2 bg-primary">Send Message</button>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+  <!-- socal media -->
+  <div class="mt-32">
+    <h1 class="font-semibold text-2xl text-center">Social Media</h1>
+    <div class="text-center ">
+      <i class="fa-brands fa-facebook m-4"></i>
+      <i class="fa-brands fa-twitter m-4  "></i>
+      <i class="fa-brands fa-linkedin m-4"></i>
+      <i class="fa-brands fa-pinterest m-4"></i>
+    </div>
+  </div>
+
+
+ <!-- footer -->
+ <footer class="footer mt-10 p-10 bg-[#131318] text-base-content">
+  <aside>
+    <h2 class="font-semibold text-2xl mb-2 text-white">Get In Touch</h2>
+    <p class="mt-2 font-sans text-base text-gray-400">Have questions, feedback, or just want to connect?<br> We're here for you! Feel free to reach out using the <br>following contact information:</p>
+    <i class="fa fa-envelope text-primary mt-4 mb-2"><span class="text-gray-400 ml-4 font-sans ">demo@gmail.com</span></i>
+    <i class="fa fa-phone text-primary "><span class="text-gray-400 ml-4 font-sans">01872543564</span></i>
+
+  </aside> 
+  <nav class="text-gray-300">
+    <header class="footer-title">Company</header> 
+    <a class="link link-hover">about us</a>
+    <a class="link link-hover">Leadership</a>
+    <a class="link link-hover">Careers</a>
+    <a class="link link-hover">News & Article</a>
+    <a class="link link-hover">Legal Notice</a>
+
+  </nav> 
+  <nav class="text-gray-300">
+    <header class="footer-title">Support</header> 
+    <a class="link link-hover">Help Center</a>
+    <a class="link link-hover">FAQ</a>
+    <a class="link link-hover"> Ticket Support</a>
+    <a class="link link-hover">Contact Us</a>
+  </nav> 
+  <nav class="text-gray-300">
+    <header class="footer-title">Legal</header> 
+    <a class="link link-hover">Terms of use</a>
+    <a class="link link-hover">Privacy policy</a>
+    <a class="link link-hover">Cookie policy</a>
+    <a class="link link-hover">Order policy</a>
+  </nav>
+</footer>
+</body>
+</html>
